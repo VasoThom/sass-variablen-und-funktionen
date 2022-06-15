@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  border-bottom: 1px solid rgb(226, 225, 225);
+  justify-content: space-between;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+  i,
+  li {
+    padding: 1.5rem;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  i {
+    border-right: 1px solid rgb(226, 225, 225);
+  }
+}
+
+button {
+  font-size: 30px;
+  background-color: white;
+}

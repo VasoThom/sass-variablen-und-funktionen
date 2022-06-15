@@ -1,0 +1,112 @@
+header {
+  display: flex;
+  border-bottom: 1px solid rgb(226, 225, 225);
+  justify-content: space-between;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+header i,
+header li {
+  padding: 1.5rem;
+}
+header li {
+  list-style-type: none;
+}
+header a {
+  text-decoration: none;
+}
+header i {
+  border-right: 1px solid rgb(226, 225, 225);
+}
+
+button {
+  font-size: 30px;
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img {
+  width: 15%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+main {
+  padding: calc(1rem + 5vw);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+label {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 4px;
+}
+
+input,
+button {
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.button_login {
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+div {
+  position: relative;
+}
+
+.input-icons i {
+  position: absolute;
+  left: 0;
+  bottom: 34px;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

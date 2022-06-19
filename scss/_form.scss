@@ -33,9 +33,18 @@ div {
 }
 .input-icons i {
   position: absolute;
-  left: 0;
+  left: 10px;
   bottom: 34px;
 }
 i {
   font-size: 1.5rem;
+}
+.hr {
+  border-top-style: solid;
+  border-color: #d0d1d3;
+  border-top-width: 1px;
+  margin-top: 36px;
+}
+.password {
+  margin-top: 24px;
 }

@@ -1,0 +1,17 @@
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 60%;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 24px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+.registerbutton {
+  font-weight: 700;
+  box-shadow: inset 0 0 0 2px #1a1a1a;
+  font-size: 15px;
+}
